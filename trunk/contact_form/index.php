@@ -7,7 +7,7 @@ if(isset($_POST["name"],$_POST["email"], $_POST["content"])) {
 	    if(empty($subject) || empty($from) || empty($message )) {            echo "<p><strong>Reload this page - fill in all fields!</strong></p>";        }  else {	mail($to,$subject,$message,$headers);	echo "<p><em>Message sent!</em></p><p>Please allow up to three days for a reply.</p>";		}
     } else {
 	echo <<<END
-<div class="contactForm"><form id="gb_form" method="post" action="#"><p>Name:<br /><input type="text" name="name"/></p><p>Email:<br /><input type="text" name="email"/></p><p>Message:<br /><textarea name="content" rows="10" cols="45" wrap="physical"></textarea></p><p><input class="submit" type="submit" value="Send"/></p></form></div>
+<div class="contactForm"><form id="gb_form" method="post" action="#"><p>Name:<br /><input type="text" name="name"/></p><p>Email:<br /><input type="text" name="email"/></p><p>Message:<br /><textarea name="content" rows="10" cols="45" wrap="physical"></textarea></p><p><input class="submit" type="submit" value="Send"/> (<em>Ensure all fields are complete, or you will have to start again!</em>)</p></form></div>
 END;
     }
 }?>
