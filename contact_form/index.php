@@ -1,6 +1,6 @@
 <?php/* * * * * * * * * * * * * * * * * * * * * * * *  * * Contact Form - Basic contact form for Frog CMS * * Original Author: A.J. Cates; http://ajcates.com/ * Updated (1.0.1+) by: D.J. Reimer; http://erajad.byethost10.com/ * * Licensed under the MIT license: *   http://www.opensource.org/licenses/mit-license.php * * * * * * * * * * * * * * * * * * * * * * * * */
 Plugin::setInfos(array(
-    'id'          => 'contact_form',    'title'       => 'Contact Form',    'description' => 'A contact form plugin.',    'version'     => '1.0.2',    'license'     => 'MIT',    'require_frog_version' => '0.9.2',    'website'     => 'http://erajad.byethost10.com/articles/frog-contact-plugin'));
+    'id'          => 'contact_form',    'title'       => 'Contact Form',    'description' => 'A contact form plugin.',    'version'     => '1.0.2',    'license'     => 'MIT',    'require_frog_version' => '0.9.2',    'update_url'  => 'http://frogtools.googlecode.com/svn/xml/frogtool-versions.xml',    'website'     => 'http://erajad.byethost10.com/articles/frog-contact-plugin'));
 function makeForm($emailOut) {
 if(isset($_POST["name"],$_POST["email"], $_POST["content"])) {
 	$to = $emailOut;	$subject = $_POST["name"];	$message = $_POST["content"];	$from = $_POST["email"];	$headers = "From: $from";
