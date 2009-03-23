@@ -1,0 +1,16 @@
+#summary What is here, and what goes where.
+
+= Introduction =
+
+This site is just in the early stages, but it may as well stay organized!
+
+= Details =
+
+  * Each plugin, addon, etc., has its _own_ directory in the trunk
+  * All XML update files should go in the svn/xml/ directory
+
+= Housekeeping =
+
+  * It's a good idea to update the changelog.txt files with each commit
+
+I'm sure there will be more! :)
