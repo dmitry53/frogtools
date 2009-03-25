@@ -2,7 +2,7 @@
 <frog-plugins>
     <frog-plugin>
         <id>contact_form</id>
-        <version>1.0.2a</version>
+        <version>1.0.3</version>
         <status>stable</status>
     </frog-plugin>
 </frog-plugins>
