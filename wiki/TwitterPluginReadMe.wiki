@@ -9,7 +9,7 @@ In the last couple of months I have quietly been working on a Twitter plugin for
 
 Unzip and then place the contents in a folder named "twitter" in your /frog/plugins/ directory.
 
-Put this code where you want to show your twitter updates. Replacing "Twitter_User_Name" with your twitter username. The second parameter is the number of updates you would like pull.
+Put this code where you want to show your twitter updates in the backend of frog. Replacing "Twitter_User_Name" with your twitter username. The second parameter is the number of updates you would like pull.
 {{{
 	<? $tweets = twitterUpdates('Twitter_User_Name', 4); ?>
 }}}
