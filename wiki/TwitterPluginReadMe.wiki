@@ -12,13 +12,15 @@ Put this code where you want to show your twitter updates. Replacing "Twitter_Us
 	<? $tweets = twitterUpdates('Twitter_User_Name', 4); ?>
 }}}
 
-The tweet object is mostly the same as the [http://apiwiki.twitter.com/REST+API+Documentation#Statuselement Status Element] as described in the twitter documentation. I added 2 more items, url and date for convenience.
+The $tweets variable will now hold an array of the tweet class. You can simply loop through the array just like any other.
 
 {{{
 	<? foreach($tweets as $tweet): ?>
 		<li class="tweet"><?=$tweet->text;?><span><a href="<?=$tweet->date?>"><?=$tweet->date;?></a></span></li>
 	<? endforeach; ?>
 }}}
+
+The tweet object is mostly the same as the [http://apiwiki.twitter.com/REST+API+Documentation#Statuselement Status Element] as described in the twitter documentation. I added 2 more items, url and date for convenience.
 
 Next you need to set the twitter.xml file to be readable and writable to php. You can do this by using the chmod command:
 {{{
