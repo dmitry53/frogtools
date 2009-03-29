@@ -7,12 +7,14 @@ In the last couple of months I have quietly been working on a Twitter plugin for
 
 ==Instructions==
 
+Unzip and then place the contents in a "twitter" *folder* in your /frog/plugins/ directory.
+
 Put this code where you want to show your twitter updates. Replacing "Twitter_User_Name" with your twitter username. The second parameter is the number of updates you would like pull.
 {{{
 	<? $tweets = twitterUpdates('Twitter_User_Name', 4); ?>
 }}}
 
-The $tweets variable will now hold an array of the tweet class. You can simply loop through the array just like any other.
+  #The $tweets variable will now hold an array of the tweet class. You can simply loop through the array just like any other.
 
 {{{
 	<? foreach($tweets as $tweet): ?>
