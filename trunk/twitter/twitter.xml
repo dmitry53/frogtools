@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+<status>
+  <created_at>Sun Mar 29 21:03:26 +0000 2009</created_at>
+  <id>1413971741</id>
+  <text>@oliviamunn why wouldn't those tips work for guys?</text>
+  <source>&lt;a href="http://thecosmicmachine.com/eventbox/"&gt;EventBox&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>1413962575</in_reply_to_status_id>
+  <in_reply_to_user_id>15888142</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>oliviamunn</in_reply_to_screen_name>
+  <user>
+    <id>10394102</id>
+    <name>ajcates</name>
+    <screen_name>ajcates</screen_name>
+    <location>Vista CA.</location>
+    <description>I do web site design, development and girls.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/58497876/avatar_normal.png</profile_image_url>
+    <url>http://ajcates.com</url>
+    <protected>false</protected>
+    <followers_count>56</followers_count>
+  </user>
+</status>
+</statuses>
