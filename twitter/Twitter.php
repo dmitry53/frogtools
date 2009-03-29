@@ -23,7 +23,7 @@ class Twitter {
 	public function Twitter($count) {
 		$this->xmlLocation = CORE_ROOT . '/plugins/Twitter/twitter.xml';
 		$this->timeOut = 3;
-		$this->refresh = 10; //when we check to see if we need another twitter xml file
+		$this->refresh = 5; //when we check to see if we need another twitter xml file
 		$this->twitterCount = $count;
 		$this->needed = false;
 	}
