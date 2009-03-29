@@ -17,7 +17,7 @@ Plugin::setInfos(array(
 	'version'     => '1.0.0',
 	'license'     => 'MIT',
 	'author'      => '<a href="http://ajcates.com">A.J. Cates</a>',
-	'website'     => 'http://ajcates.com/',
+	'website'     => 'http://code.google.com/p/frogtools/wiki/TwitterPluginReadMe',
 	'update_url'  => 'http://frogtools.googlecode.com/svn/xml/frogtool-versions.xml',
 	'require_frog_version' => '0.9.3'
 ));
