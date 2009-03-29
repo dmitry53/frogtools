@@ -14,7 +14,7 @@ Put this code where you want to show your twitter updates in the backend of frog
 	<? $tweets = twitterUpdates('Twitter_User_Name', 4); ?>
 }}}
 
-  #The $tweets variable will now hold an array of the tweet class. You can simply loop through the array just like any other.
+The $tweets variable will now hold an array of the tweet class. You can simply loop through the array just like any other.
 
 {{{
 	<? foreach($tweets as $tweet): ?>
