@@ -1,0 +1,39 @@
+CONTACT_FORM
+A Frog CMS Plugin
+--
+http://code.google.com/p/frogtools/
+--
+
+Change log:
+-----------
+1.0.4 [2009.03.20]
+- added French language file
+- Changed all double quotes to single quotes
+- Fixed indention
+- Made an echoForm function for easily echoing the form (I want a way to pass errors to this function in the future.)
+- Added in error checking on the actual sending of the mail
+- split changelog.txt off from README.txt
+
+1.0.3 [2009.03.25]
+- added strings and directory for i18n (now requires 0.9.5)
+- added "fight comment spam with CSS" test (see http://bit.ly/tGyqk)
+- enhanced this doc
+
+1.0.2a [2009.03.02]
+- added 'update_url' XML option
+- added update instruction to doc
+
+1.0.2 [2009.02.28]
+- revised error check logic to ensure cleaner exit
+- text altered to provide more generic messages
+- a little more code-tidying
+
+1.0.1
+- added simple error check to prevent sending empty fields
+- enhanced documentation (this file)
+- added MIT license to this version
+
+1.0
+- It works!
+
+[end]
