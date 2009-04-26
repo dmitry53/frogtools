@@ -7,7 +7,7 @@ A plugin for Frog CMS that will allow you to display your twitter feed anywhere 
 
 ==Instructions==
 # Unzip and then place the contents in a folder named "twitter" in your /frog/plugins/ directory.
-# Put this code where you want to show your twitter updates. Replacing "Twitter_User_Name" with your twitter username. The second parameter is the number of updates you would like display:
+# Put this code where you want to show your twitter updates. Replacing `Twitter_User_Name` with your twitter username. The second parameter is the number of updates you would like display:
 
 {{{
 <?php $tweets = twitterUpdates('Twitter_User_Name', 4); ?>
@@ -22,4 +22,3 @@ Next you need to set the twitter.xml file to be readable and writable to php. Yo
 {{{
 chmod a+r+w twitter.xml
 }}}
-
