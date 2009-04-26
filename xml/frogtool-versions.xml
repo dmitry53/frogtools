@@ -7,7 +7,7 @@
     </frog-plugin>
     <frog-plugin>
         <id>twitter</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <status>stable</status>
     </frog-plugin>
 </frog-plugins>
