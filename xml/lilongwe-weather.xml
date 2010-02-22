@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Lilongwe, Malawi: Weather" />
+  <Content type="url" href="http://rss.wunderground.com/auto/rss_full/global/stations/67586.xml?units=metric" />
+</Module>
